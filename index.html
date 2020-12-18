@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <form>
+        <div class="row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Kukutis" required>
+        </div>
+        
+        <div class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="kukutis@email.com" required>
+        </div>
+
+        <div class="row">
+            <label for="birth">Birthday</label>
+            <input type="date" id="birth" name="birth" required>
+        </div>
+
+        <div class="row">
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+        </div>
+
+        <div class="row">
+            <label for="phone">Phone number</label>
+            <input type="tel" id="phone" name="phone" pattern="+370612345" placeholder="+370612345" required>
+        </div>
+
+        <div class="row"> 
+            <label for="file">Choose a file</label>
+            <input type="file" id="file" name="file">
+        </div>
+
+        <div class="row"> 
+            <label for="color">Favourite color</label>
+            <input type="color" id="color" name="color">
+        </div>
+
+        <div class="row"> 
+            <label for="favnumber">Favourite number</label>
+            <input type="number" id="favnumber" name="favnumber">
+        </div>
+
+        <div class="row">
+            <label for="volume">Volume</label>
+            <input type="range" id="volume" name="volume" min="0" max="500">
+        </div>
+
+        <div class="row">
+    <label for="animal">Favourite animal</label>
+
+    <input type="radio" id="cat" name="animal" value="cat">
+    <label for="cat">Cat</label>
+
+    <input type="radio" id="dog" name="animal" value="dog">
+    <label for="dog">Dog</label>
+
+    <input type="radio" id="mouse" name="animal" value="mouse">
+    <label for="mouse">Mouse</label>
+</div>
+
+<div class="row"> 
+    <label for="fruit">Favourtie fruit</label>
+
+    <input type="checkbox" id="mango" name="fruit" value="Mango">
+    <label for="mango">Mango</label>
+
+    <input type="checkbox" id="apple" name="fruit" value="Apple">
+    <label for="apple">Apple</label>
+
+    <input type="checkbox" id="orange" name="fruit" value="Orange">
+    <label for="apple">Orange</label>
+</div>
+
+        <div class="row transparent"> 
+            <input type="submit" value="Submit" class="submit">
+        </div>
+
+        <div class="row"> 
+            <label for="search">Looking for something? Seach here</label>
+            <input type="search" id="search" name="search">
+            <button>Search!</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>

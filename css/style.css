@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+    background-image: url('../img/pixels.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    font-family: monospace;
+}
+
+.row {
+    /* padding: 10px; */
+    padding: 10px 90px;
+    font-size: 20px;
+    background-color: thistle;
+    margin: 10px;
+    width: 300px;
+    border-radius: 100px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: rgb(192, 192, 192) 3px solid;
+}
+
+.submit {
+    font-size: 40px;
+    background-color: violet;
+    border: rgb(194, 84, 194) 5px solid;
+    padding: 20px 80px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.transparent {
+    background-color: transparent;
+}
